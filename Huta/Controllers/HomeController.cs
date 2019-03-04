@@ -17,7 +17,7 @@ namespace Huta.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Hello world again. Your application description page.";
+            ViewData["Message"] = "Your application description page.";
 
             return View();
         }
