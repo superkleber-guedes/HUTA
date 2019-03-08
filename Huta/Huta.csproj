@@ -12,8 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Data\Prop\" />
     <Folder Include="wwwroot\images\Prop\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Prop\NotFound.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 
 </Project>

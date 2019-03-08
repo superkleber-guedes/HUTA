@@ -2,7 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-
+    using System.ComponentModel.DataAnnotations;
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -19,9 +19,15 @@
         public List<BeforeAndAfterData> End { get; set; }
     }
 
+    public partial class DailyMessages
+    {
+        public List<DailyMessage> Messages { get; set; }
+    }
+
     public partial class DailyMessage
     {
         [JsonProperty("Date")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTimeOffset Date { get; set; }
 
         [JsonProperty("Message")]
