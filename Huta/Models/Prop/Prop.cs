@@ -35,9 +35,6 @@
 
         [JsonProperty("SubMessage", NullValueHandling = NullValueHandling.Ignore)]
         public string SubMessage { get; set; }
-
-        [JsonProperty("ImagePath", NullValueHandling = NullValueHandling.Ignore)]
-        public string ImagePath { get; set; }
     }
 
     public partial class BeforeAndAfterData
