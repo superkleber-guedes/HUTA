@@ -1,0 +1,63 @@
+{
+  "Intro": [
+    {
+      "Order": 1,
+      "Message": "Hi Lucy",
+      "SubMessage": "Swipe right"
+    },
+    {
+      "Order": 2,
+      "Message": "There's one thing I never liked on our story",
+      "SubMessage": "And I am going to change it today - swipe right"
+    },
+    {
+      "Order": 3,
+      "Message": "You never swiped right for me",
+      "SubMessage": "Someone else did"
+    },
+    {
+      "Order": 4,
+      "Message": "I will get my revenge today",
+      "SubMessage": "Swipe right again"
+    },
+    {
+      "Order": 5,
+      "Message": "I wrote 366 reasons why I love you",
+      "SubMessage": "Yes, a whole leap year"
+    },
+    {
+      "Order": 6,
+      "Message": "And you will need to swipe right on every one of them"
+    },
+    {
+      "Order": 7,
+      "Message": "I've been writing them for a while, one a day, every day"
+    },
+    {
+      "Order": 8,
+      "Message": "Are you ready?!",
+      "SubMessage": "Swipe right for me... keep swiping right for me"
+    }
+  ],
+  "End": [
+    {
+      "Order": 1,
+      "Message": "I hope you understand how much I love you",
+      "SubMessage": "And I hope your fingers are ok"
+    },
+    {
+      "Order": 2,
+      "Message": "So now, leave the phone there and get changed",
+      "SubMessage": "No pijamas allowed"
+    },
+    {
+      "Order": 3,
+      "Message": "I'm waiting for you outside",
+      "SubMessage": "But just before you forget... (swipe last time)"
+    },
+    {
+      "Order": 4,
+      "Message": "I love you"
+    }
+  ]
+}

@@ -7,16 +7,20 @@
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
-    public partial class Prop
+    public partial class CardList
     {
-        [JsonProperty("intro")]
-        public List<BeforeAndAfterData> Intro { get; set; }
+        public int TotalCount { get; set; }
+        public List<Card> Cards { get; set; }
+    }
 
-        [JsonProperty("daily")]
-        public List<DailyMessage> Daily { get; set; }
-
-        [JsonProperty("end")]
-        public List<BeforeAndAfterData> End { get; set; }
+    public partial class Card
+    {
+        public bool HasIndex { get; set; }
+        public int? Index { get; set; }
+        public bool HasDate { get; set; }
+        public DateTime? Date { get; set; }
+        public string Message { get; set; }
+        public string SubMessage { get; set; }
     }
 
     public partial class DailyMessages
@@ -37,9 +41,18 @@
         public string SubMessage { get; set; }
     }
 
+    public partial class AroundData
+    {
+        [JsonProperty("Intro")]
+        public List<BeforeAndAfterData> Intro { get; set; }
+
+        [JsonProperty("End")]
+        public List<BeforeAndAfterData> End { get; set; }
+    }
+
     public partial class BeforeAndAfterData
     {
-        [JsonProperty("order")]
+        [JsonProperty("Order")]
         public long Order { get; set; }
 
         [JsonProperty("Message")]

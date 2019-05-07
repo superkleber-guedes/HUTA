@@ -1,0 +1,38 @@
+﻿@model Huta.Prop.CardList
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>All the reasons</title>
+</head>
+<body>
+    <div>
+        @foreach (var card in Model.Cards)
+        {
+            <div>
+                @if ((card.HasDate) && (card.HasIndex))
+                {
+                    <div style="text-align: left">
+                        @Html.DisplayFor(modelItem => card.Date)
+                    </div>
+                    <div style="text-align: right">
+                        @Html.DisplayFor(modelItem => card.Index) of @Model.TotalCount
+                    </div>
+                }
+                <div>
+                    @Html.DisplayFor(modelItem => card.Message)
+                </div>
+                <div style="border-bottom: 1px solid grey;">
+                    @Html.DisplayFor(modelItem => card.SubMessage)
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>
