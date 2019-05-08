@@ -3,22 +3,22 @@
     {
       "Order": 1,
       "Message": "Hi Lucy",
-      "SubMessage": "Swipe right"
+      "SubMessage": "Swipe! Right, top or left."
     },
     {
       "Order": 2,
       "Message": "There's one thing I never liked on our story",
-      "SubMessage": "And I am going to change it today - swipe right"
+      "SubMessage": "And I am going to change it today - swipe."
     },
     {
       "Order": 3,
-      "Message": "You never swiped right for me",
-      "SubMessage": "Someone else did"
+      "Message": "You never swiped for me on Tinder. Never!",
+      "SubMessage": "Someone else did."
     },
     {
       "Order": 4,
       "Message": "I will get my revenge today",
-      "SubMessage": "Swipe right again"
+      "SubMessage": "Swipe again"
     },
     {
       "Order": 5,
@@ -27,22 +27,23 @@
     },
     {
       "Order": 6,
-      "Message": "And you will need to swipe right on every one of them"
+      "Message": "And you will need to swipe on every one of them",
+      "SubMessage": "You can swipe up, left or right, anywhere. I'm being nice..."
     },
     {
       "Order": 7,
-      "Message": "I've been writing them for a while, one a day, every day"
+      "Message": "I've been writing these reasons for a while. One a day, every day"
     },
     {
       "Order": 8,
       "Message": "Are you ready?!",
-      "SubMessage": "Swipe right for me... keep swiping right for me"
+      "SubMessage": "Swipe for me... keep swiping for me"
     }
   ],
   "End": [
     {
       "Order": 1,
-      "Message": "I hope you understand how much I love you",
+      "Message": "I hope you now understand how much I love you",
       "SubMessage": "And I hope your fingers are ok"
     },
     {
@@ -53,7 +54,7 @@
     {
       "Order": 3,
       "Message": "I'm waiting for you outside",
-      "SubMessage": "But just before you forget... (swipe last time)"
+      "SubMessage": "But just before you forget... (swipe one last time)"
     },
     {
       "Order": 4,

@@ -16,6 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\TheList.css" />
+    <None Include="wwwroot\js\TheList.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Update="Views\Prop\NotFound.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
