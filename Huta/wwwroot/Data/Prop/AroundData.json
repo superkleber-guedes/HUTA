@@ -7,13 +7,13 @@
     },
     {
       "Order": 2,
-      "Message": "There's one thing I never liked in our story",
+      "Message": "There's one thing I never liked in our love story",
       "SubMessage": "And I am going to change it today, please swipe."
     },
     {
       "Order": 3,
-      "Message": "You never swiped for me on Tinder. Never!!",
-      "SubMessage": "Someone else did."
+      "Message": "You never swiped for me on Tinder! Never!!",
+      "SubMessage": "Someone else did. Thanks someone!"
     },
     {
       "Order": 4,
@@ -22,8 +22,8 @@
     },
     {
       "Order": 5,
-      "Message": "I wrote 366 reasons why I love you",
-      "SubMessage": "Yes, a whole leap year"
+      "Message": "I spent a whole leap year writing why I love you",
+      "SubMessage": "Yes, 366 reasons"
     },
     {
       "Order": 6,
@@ -48,17 +48,21 @@
     },
     {
       "Order": 2,
-      "Message": "So now, leave the phone there and get changed",
-      "SubMessage": "No pijamas allowed"
+      "Message": "So now, finish this and get changed",
+      "SubMessage": "No pyjamas allowed"
     },
     {
       "Order": 3,
-      "Message": "I'm waiting for you outside",
+      "Message": "Go to the next bedroom, put some clothes on"
+    },
+    {
+      "Order": 4,
+      "Message": "I'm waiting for you downstairs",
       "SubMessage": "But just before you forget... (swipe one last time)"
     },
     {
       "Order": 4,
-      "Message": "I love you"
+      "Message": "I love you!"
     }
   ]
 }
