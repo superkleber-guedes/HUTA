@@ -27,42 +27,14 @@
     },
     {
       "Order": 6,
-      "Message": "And you will need to swipe for every one of them",
+      "Message": "And you will need to swipe for every single one of them",
       "SubMessage": "You can swipe up, left or right, anywhere. I'm being nice..."
-    },
+    },,
     {
       "Order": 7,
-      "Message": "I've been writing these reasons for a while. One a day, every day"
-    },
-    {
-      "Order": 8,
       "Message": "Are you ready?!",
       "SubMessage": "Swipe for me... keep swiping for me"
     }
   ],
-  "End": [
-    {
-      "Order": 1,
-      "Message": "I hope you now understand how much I love you",
-      "SubMessage": "And I hope your fingers are ok"
-    },
-    {
-      "Order": 2,
-      "Message": "So now, finish this and get changed",
-      "SubMessage": "No pyjamas allowed"
-    },
-    {
-      "Order": 3,
-      "Message": "Go to the next bedroom, put some clothes on"
-    },
-    {
-      "Order": 4,
-      "Message": "I'm waiting for you downstairs",
-      "SubMessage": "But just before you forget... (swipe one last time)"
-    },
-    {
-      "Order": 4,
-      "Message": "I love you!"
-    }
-  ]
+  "End": [  ]
 }
