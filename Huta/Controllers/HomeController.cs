@@ -51,16 +51,16 @@ namespace Huta.Controllers
                 });
                 index++;
             }
-            foreach (var final in beforeAndAfter.End)
-            {
-                cardList.Cards.Add(new Card()
-                {
-                    HasDate = false,
-                    HasIndex = false,
-                    Message = final.Message,
-                    SubMessage = final.SubMessage
-                });
-            }
+            //foreach (var final in beforeAndAfter.End)
+            //{
+            //    cardList.Cards.Add(new Card()
+            //    {
+            //        HasDate = false,
+            //        HasIndex = false,
+            //        Message = final.Message,
+            //        SubMessage = final.SubMessage
+            //    });
+            //}
 
             return View(cardList);
         }
